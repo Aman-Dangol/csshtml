@@ -31,11 +31,40 @@
   column-gap: 20px;
 }
 
-
-.navigation > nav > ul > li{
+.navigation > nav > ul > li {
   list-style: none;
 }
 
-.navigation > nav > ul >li > a{
+.navigation > nav > ul > li > a {
   text-decoration: none;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+  
+}
+
+.hero-section > *{
+  width: 50%;
+}
+
+/* end of hero section */
+
+.feature-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.feature{
+  padding: 24px;
+  text-align: justify;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 4px  4px 4px 4px black ;
 }
